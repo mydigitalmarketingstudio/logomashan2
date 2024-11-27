@@ -1,0 +1,148 @@
+body{
+			font-family: 'Montserrat', sans-serif;
+		}
+
+		#boxs{
+			position: relative;
+			margin: 0 auto;
+			background-image: url('https://videoartstudio.wordpress.com/wp-content/uploads/2024/11/tarif_draft2.gif');
+			background-repeat: none;
+			height: 382px;
+			width: 600px;
+			-webkit-box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.5);
+			-moz-box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.5);
+			box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.5);
+			border-radius: 18px;
+			padding: 0 50px;
+		}
+
+		p.title{
+			color:#fff;
+			font-size: 24px;
+			padding-top: 20px;
+			text-align: center;
+			padding-bottom: 20px;
+		}
+		p.title small{
+			font-size: 12px;
+			font-weight: 300;
+			display: block;
+			font-family: 'Source Sans Pro', sans-serif;
+		}
+
+		.box{
+			position: absolute;
+			background: rgba(46,120,173,1);
+			background: -moz-linear-gradient(-45deg, rgba(46,120,173,1) 0%, rgba(22,178,100,1) 100%);
+			background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(46,120,173,1)), color-stop(100%, rgba(22,178,100,1)));
+			background: -webkit-linear-gradient(-45deg, rgba(46,120,173,1) 0%, rgba(22,178,100,1) 100%);
+			background: -o-linear-gradient(-45deg, rgba(46,120,173,1) 0%, rgba(22,178,100,1) 100%);
+			background: -ms-linear-gradient(-45deg, rgba(46,120,173,1) 0%, rgba(22,178,100,1) 100%);
+			background: linear-gradient(135deg, rgba(46,120,173,1) 0%, rgba(22,178,100,1) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e78ad', endColorstr='#16b264', GradientType=1 );
+			border-radius: 10px;
+			width: 200px;
+			height: 320px;
+			float:left;
+			-webkit-box-shadow: 0px 0px 68px -12px rgba(0,0,0,0.75);
+			-moz-box-shadow: 0px 0px 68px -12px rgba(0,0,0,0.75);
+			box-shadow: 0px 0px 68px -12px rgba(0,0,0,0.75);
+		}
+		.large{
+			position: relative;
+			width: 250px !important;
+			height: 360px;
+			z-index: 99;
+			margin-top: -20px;
+		}
+
+		.box .price{
+			font-size: 220px;
+			color: #fff;
+			opacity: 0.2;
+			position: absolute;
+			top: -185px;
+			left: 30px;
+			z-index: 1;
+			font-weight: bold;
+			font-family: 'Montserrat', sans-serif;
+		}
+		
+		.box .price small{
+			font-size: 25px !important;
+			font-weight: normal;
+		}
+
+		.box h2{
+			color:#fff;
+			font-size: 25px;
+			text-align: center;
+			z-index: 9;
+			margin: 10px;
+		}
+
+		hr{
+			width: 30px;
+			border-top: 1px solid #fff;
+		}
+
+		.box p{
+			font-family: 'Source Sans Pro', sans-serif;
+			font-size: 12px;
+			color: #fff;
+			text-align: center;
+		}
+
+		.box ul{
+			margin-bottom: 30px;
+		}
+
+		.large ul{
+			margin-top: 30px;
+			margin-bottom: 50px;
+		}
+
+		.box ul li{
+			list-style-type: none;
+			color: #ffeef4;
+			opacity: 0.7;
+			text-align: center;
+			font-family: 'Source Sans Pro', sans-serif;
+			font-size: 12px;
+			border-bottom: 1px solid #99d7bf;
+			padding: 7px;
+			width: 90px;
+		}
+		.box ul li:last-child{
+			border-bottom: none;
+		}
+	
+		.large ul li{
+			list-style-type: none;
+			color: #ffeef4;
+			opacity: 0.7;
+			text-align: center;
+			font-family: 'Source Sans Pro', sans-serif;
+			font-size: 12px;
+			border-bottom: 1px solid #99d7bf;
+			padding: 7px;
+			width: 150px;
+		} 
+
+		.box .sell{
+			font-size: 12px;
+			border: none;
+			text-align: center;
+			padding: 10px 40px;
+			border-radius: 30px;
+			background: #fff;
+			cursor: pointer;
+			color: #2e7c63;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 600;
+			z-index: 10;
+			position: relative;
+			-webkit-box-shadow: 0px 20px 74px -19px rgba(0,0,0,0.75);
+			-moz-box-shadow: 0px 20px 74px -19px rgba(0,0,0,0.75);
+			box-shadow: 0px 20px 74px -19px rgba(0,0,0,0.75);
+		}
